@@ -8,6 +8,8 @@ This portfolio project showcases a complete end-to-end data warehousing and anal
 ## **🏗️ Data Architecture**
 
 This project implements the **Medallion Architecture** consisting of **Bronze, Silver, and Gold** layers:
+<img width="958" height="567" alt="image" src="https://github.com/user-attachments/assets/f6f3eb50-7064-4d37-b687-c6ddc80aaed4" />
+
 
 ### **🔸 Bronze Layer**
 
