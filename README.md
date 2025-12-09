@@ -1,27 +1,42 @@
-# sql-data-warehouse-project
-Building a modern data warehouse with SQL server including ETL process, data modeling and analytics
-📊 Data Warehouse & Analytics Project
-Welcome to the Data Warehouse and Analytics Project repository! 🚀 This portfolio project showcases a complete end-to-end data warehousing and analytics solution — from ingesting raw data to delivering actionable insights. It follows industry-standard data engineering and analytics practices.
+# **📊 Data Warehouse & Analytics Project**
 
-🏗️ Data Architecture
-This project implements the Medallion Architecture consisting of Bronze, Silver, and Gold layers:
-🔸 Bronze Layer
+Welcome to the **Data Warehouse and Analytics Project** repository! 🚀
+This portfolio project showcases a complete end-to-end data warehousing and analytics solution — from ingesting raw data to delivering actionable insights. It follows industry-standard data engineering and analytics practices.
+
+---
+
+## **🏗️ Data Architecture**
+
+This project implements the **Medallion Architecture** consisting of **Bronze, Silver, and Gold** layers:
+
+### **🔸 Bronze Layer**
+
 * Stores raw, unprocessed data directly from source systems.
 * Data is ingested from CSV files into a SQL Server database.
-🔸 Silver Layer
+
+### **🔸 Silver Layer**
+
 * Performs data cleansing, standardization, validation, and normalization.
 * Prepares structured data ready for business transformation.
-🔸 Gold Layer
-* Contains business-ready data modeled using a star schema.
+
+### **🔸 Gold Layer**
+
+* Contains business-ready data modeled using a **star schema**.
 * Optimized for reporting, dashboards, and analytical queries.
 
-📖 Project Overview
+---
+
+## **📖 Project Overview**
+
 This project includes the following components:
-* Data Architecture: Designing a modern warehouse using Medallion layers.
-* ETL Pipelines: Extracting, transforming, and loading data from multiple sources.
-* Data Modeling: Developing fact and dimension tables for analytics.
-* Analytics & Reporting: Creating SQL-based dashboards and insights.
+
+* **Data Architecture:** Designing a modern warehouse using Medallion layers.
+* **ETL Pipelines:** Extracting, transforming, and loading data from multiple sources.
+* **Data Modeling:** Developing fact and dimension tables for analytics.
+* **Analytics & Reporting:** Creating SQL-based dashboards and insights.
+
 This repository is ideal for showcasing skills in:
+
 * SQL Development
 * Data Architecture
 * Data Engineering
@@ -29,33 +44,54 @@ This repository is ideal for showcasing skills in:
 * Data Modeling
 * Data Analytics
 
-🛠️ Tools & Resources (All Free!)
-* Datasets: CSV files used throughout the project
-* SQL Server Express: Lightweight SQL Server instance
-* SSMS (SQL Server Management Studio): Database GUI
-* GitHub: Version control and project collaboration
-* Draw.io: Architecture, data model, and ETL flow diagrams
-* Notion: Complete project template and step-by-step workflow
+---
 
-🚀 Project Requirements
-1. Data Engineering – Build the Data Warehouse
-Objective: Create a modern SQL Server–based data warehouse that consolidates sales data into a unified analytical model.
-Specifications:
-* Import datasets from ERP and CRM CSV files
+## **🛠️ Tools & Resources (All Free!)**
+
+* **Datasets:** CSV files used throughout the project
+* **SQL Server Express:** Lightweight SQL Server instance
+* **SSMS (SQL Server Management Studio):** Database GUI
+* **GitHub:** Version control and project collaboration
+* **Draw.io:** Architecture, data model, and ETL flow diagrams
+* **Notion:** Complete project template and step-by-step workflow
+
+---
+
+## **🚀 Project Requirements**
+
+### **1. Data Engineering – Build the Data Warehouse**
+
+**Objective:**
+Create a modern SQL Server–based data warehouse that consolidates sales data into a unified analytical model.
+
+**Specifications:**
+
+* Import datasets from **ERP** and **CRM** CSV files
 * Clean and validate data before analysis
 * Integrate both sources into a unified star schema
 * Only the latest dataset is required (no historization)
 * Provide documentation for analytics and business teams
 
-2. Data Analysis – BI & Analytics
-Objective: Deliver data-driven insights using SQL-based analytics focusing on:
+---
+
+### **2. Data Analysis – BI & Analytics**
+
+**Objective:**
+Deliver data-driven insights using SQL-based analytics focusing on:
+
 * Customer behavior
 * Product performance
 * Sales trends
-These insights support informed, strategic decision-making.
-➡️ For full details, see: docs/requirements.md
 
-📂 Repository Structure
+These insights support informed, strategic decision-making.
+
+➡️ For full details, see: **docs/requirements.md**
+
+---
+
+## **📂 Repository Structure**
+
+```
 data-warehouse-project/
 │
 ├── datasets/                     # Raw ERP and CRM datasets
@@ -79,4 +115,4 @@ data-warehouse-project/
 ├── LICENSE                       # Repository license
 ├── .gitignore                    # Ignored files
 └── requirements.txt              # Dependencies & requirements
-
+```
