@@ -51,11 +51,11 @@ This repository is ideal for showcasing skills in:
 ## **🛠️ Tools & Resources (All Free!)**
 
 * **Datasets:** CSV files used throughout the project
-* **SQL Server Express:** Lightweight SQL Server instance
-* **SSMS (SQL Server Management Studio):** Database GUI
-* **GitHub:** Version control and project collaboration
-* **Draw.io:** Architecture, data model, and ETL flow diagrams
-* **Notion:** Complete project template and step-by-step workflow
+* **Docker (macOS):** Runs the SQL Server container for database hosting
+* **Azure Data Studio:** Cross-platform GUI for managing and querying SQL Server
+* **GitHub:** Version control, documentation, and project collaboration
+* **Draw.io:** Used to design architecture diagrams, data models, and ETL flows
+* **Notion:** Project template, planning, and step-by-step workflow management
 
 ---
 
