@@ -112,7 +112,7 @@ data-warehouse-project/
 ├── tests/                        # Data quality checks & validation tests
 │
 ├── README.md                     # Project documentation
-├── LICENSE                       # Repository license
 ├── .gitignore                    # Ignored files
 └── requirements.txt              # Dependencies & requirements
+
 ```
