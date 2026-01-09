@@ -112,9 +112,6 @@ data-warehouse-project/
 │   ├── gold/                     # Analytical model scripts
 │
 ├── tests/                        # Data quality checks & validation tests
-│
-├── README.md                     # Project documentation
-├── .gitignore                    # Ignored files
-└── requirements.txt              # Dependencies & requirements
+└── README.md                     # Project documentation
 
 ```
