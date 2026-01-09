@@ -48,7 +48,7 @@ This repository is ideal for showcasing skills in:
 
 ---
 
-## **🛠️ Tools & Resources **
+## 🛠️ Tools & Resources 
 
 * **Datasets:** CSV files used throughout the project
 * **Docker (macOS):** Runs the SQL Server container for database hosting
@@ -59,11 +59,11 @@ This repository is ideal for showcasing skills in:
 
 ---
 
-## **🚀 Project Requirements**
+##  Project Requirements
 
-### **1. Data Engineering – Build the Data Warehouse**
+### 1. Data Engineering – Build the Data Warehouse
 
-**Objective:**
+Objective:
 Create a modern SQL Server–based data warehouse that consolidates sales data into a unified analytical model.
 
 **Specifications:**
