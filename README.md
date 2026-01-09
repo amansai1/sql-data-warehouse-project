@@ -1,34 +1,34 @@
-# **📊 Data Warehouse & Analytics Project**
+# ** Data Warehouse & Analytics Project**
 
 Welcome to the **Data Warehouse and Analytics Project** repository! 🚀
 This portfolio project showcases a complete end-to-end data warehousing and analytics solution — from ingesting raw data to delivering actionable insights. It follows industry-standard data engineering and analytics practices.
 
 ---
 
-## **🏗️ Data Architecture**
+## ** Data Architecture**
 
 This project implements the **Medallion Architecture** consisting of **Bronze, Silver, and Gold** layers:
 <img width="894" height="527" alt="image" src="https://github.com/user-attachments/assets/2eb56a8e-c4a4-42cd-9b59-5618ec130e74" />
 
 
-### **🔸 Bronze Layer**
+### ** Bronze Layer**
 
 * Stores raw, unprocessed data directly from source systems.
 * Data is ingested from CSV files into a SQL Server database.
 
-### **🔸 Silver Layer**
+### ** Silver Layer**
 
 * Performs data cleansing, standardization, validation, and normalization.
 * Prepares structured data ready for business transformation.
 
-### **🔸 Gold Layer**
+### ** Gold Layer**
 
 * Contains business-ready data modeled using a **star schema**.
 * Optimized for reporting, dashboards, and analytical queries.
 
 ---
 
-## **📖 Project Overview**
+## ** Project Overview**
 
 This project includes the following components:
 
@@ -48,7 +48,7 @@ This repository is ideal for showcasing skills in:
 
 ---
 
-## 🛠️ Tools & Resources 
+##  Tools & Resources 
 
 * **Datasets:** CSV files used throughout the project
 * **Docker (macOS):** Runs the SQL Server container for database hosting
@@ -87,11 +87,11 @@ Deliver data-driven insights using SQL-based analytics focusing on:
 
 These insights support informed, strategic decision-making.
 
-➡️ For full details, see: **docs/requirements.md**
+ For full details, see: **docs/requirements.md**
 
 ---
 
-## **📂 Repository Structure**
+## ** Repository Structure**
 
 ```
 data-warehouse-project/
