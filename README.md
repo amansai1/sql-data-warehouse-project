@@ -48,7 +48,7 @@ This repository is ideal for showcasing skills in:
 
 ---
 
-## **🛠️ Tools & Resources (All Free!)**
+## **🛠️ Tools & Resources **
 
 * **Datasets:** CSV files used throughout the project
 * **Docker (macOS):** Runs the SQL Server container for database hosting
