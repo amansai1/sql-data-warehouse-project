@@ -22,7 +22,7 @@ This project implements the **Medallion Architecture** consisting of **Bronze, S
 * Performs data cleansing, standardization, validation, and normalization.
 * Prepares structured data ready for business transformation.
 
-###  Gold Layer**
+###  Gold Layer
 
 * Contains business-ready data modeled using a **star schema**.
 * Optimized for reporting, dashboards, and analytical queries.
